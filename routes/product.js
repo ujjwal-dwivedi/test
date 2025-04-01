@@ -8,6 +8,8 @@ router
 .get('/:id',productController.getProductByID)
 .post('/',productController.createProduct)
 .put('/:id',productController.replaceProduct)
+
+
 .patch('/:id',productController.updateProduct)
 .delete('/:id',productController.deleteProduct)
 
